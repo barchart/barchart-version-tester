@@ -7,4 +7,6 @@ public interface Service {
 
 	void process_1();
 
+	void process_2();
+
 }

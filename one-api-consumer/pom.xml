@@ -23,6 +23,7 @@
 
 	<dependencies>
 
+		<!-- API bundle dependency. -->
 		<!-- BND is using API Consumer import policy by default. -->
 		<!-- Maven needs explicit range to reflect the same. -->
 		<dependency>
@@ -31,6 +32,7 @@
 			<version>[1.2, 2)</version>
 		</dependency>
 
+		<!-- LIB bundle dependency. -->
 		<dependency>
 			<groupId>com.barchart.util</groupId>
 			<artifactId>barchart-util-anno</artifactId>

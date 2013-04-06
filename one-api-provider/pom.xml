@@ -24,14 +24,16 @@
 
 	<dependencies>
 
+		<!-- API bundle dependency. -->
 		<!-- BND is using API Consumer import policy by default. -->
-		<!-- Use maven ranges to override. -->
+		<!-- Use maven ranges to express API Provider import policy. -->
 		<dependency>
 			<groupId>com.barchart.version.tester</groupId>
 			<artifactId>tester-one-api</artifactId>
-			<version>[1.2.4,)</version>
+			<version>[1.2.0,1.3.0)</version>
 		</dependency>
 
+		<!-- LIB bundle dependency. -->
 		<dependency>
 			<groupId>com.barchart.util</groupId>
 			<artifactId>barchart-util-anno</artifactId>
