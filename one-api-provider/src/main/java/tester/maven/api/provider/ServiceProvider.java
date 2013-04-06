@@ -1,7 +1,5 @@
 package tester.maven.api.provider;
 
-import tester.maven.api.Service;
-
 import com.barchart.util.anno.SemanticProviderImpl;
 
 @SemanticProviderImpl
