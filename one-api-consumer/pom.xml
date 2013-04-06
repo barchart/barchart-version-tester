@@ -17,6 +17,7 @@
 
 	<dependencies>
 
+		<!-- BND is using API Consumer import policy by default. -->
 		<dependency>
 			<groupId>com.barchart.version.tester</groupId>
 			<artifactId>tester-one-api</artifactId>
@@ -26,7 +27,8 @@
 		<dependency>
 			<groupId>com.barchart.util</groupId>
 			<artifactId>barchart-util-anno</artifactId>
-			<version>2.0.30-SNAPSHOT</version>
+			<version>2.0.32</version>
+			<optional>true</optional>
 		</dependency>
 
 	</dependencies>
