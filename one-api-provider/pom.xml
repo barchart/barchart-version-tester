@@ -15,6 +15,13 @@
 	<version>4.5.6-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
+	<scm>
+		<url>https://github.com/barchart/barchart-version-tester</url>
+		<connection>scm:git:git://github.com/barchart/barchart-version-tester.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-version-tester.git</developerConnection>
+		<tag>master</tag>
+	</scm>
+
 	<dependencies>
 
 		<!-- BND is using API Consumer import policy by default. -->

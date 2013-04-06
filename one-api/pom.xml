@@ -14,6 +14,13 @@
 	<version>1.2.3</version>
 	<packaging>bundle</packaging>
 
+	<scm>
+		<url>https://github.com/barchart/barchart-version-tester</url>
+		<connection>scm:git:git://github.com/barchart/barchart-version-tester.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-version-tester.git</developerConnection>
+		<tag>master</tag>
+	</scm>
+
 	<dependencies>
 
 		<dependency>
@@ -26,7 +33,4 @@
 	</dependencies>
 
 
-  <scm>
-    <tag>tester-one-api-1.2.3</tag>
-  </scm>
 </project>
