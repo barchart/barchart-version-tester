@@ -11,14 +11,14 @@
 
 	<groupId>com.barchart.version.tester</groupId>
 	<artifactId>tester-one-api</artifactId>
-	<version>1.3.0</version>
+	<version>1.3.1-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<scm>
 		<url>https://github.com/barchart/barchart-version-tester</url>
 		<connection>scm:git:git://github.com/barchart/barchart-version-tester.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-version-tester.git</developerConnection>
-		<tag>tester-one-api-1.3.0</tag>
+		<tag>master</tag>
 	</scm>
 
 	<dependencies>
