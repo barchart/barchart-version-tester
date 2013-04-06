@@ -25,10 +25,11 @@
 	<dependencies>
 
 		<!-- BND is using API Consumer import policy by default. -->
+		<!-- Maven needs explicit range to reflect the same. -->
 		<dependency>
 			<groupId>com.barchart.version.tester</groupId>
 			<artifactId>tester-one-api</artifactId>
-			<version>1.2.3-SNAPSHOT</version>
+			<version>[1.2, 2)</version>
 		</dependency>
 
 		<dependency>
