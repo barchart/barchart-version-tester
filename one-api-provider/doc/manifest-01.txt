@@ -1,0 +1,59 @@
+#
+# this is manifest I get when using @ProviderType in the tester.one.api package 
+#
+
+[MANIFEST tester-one-api-provider-5.0.3-SNAPSHOT.jar]
+Bnd-LastModified                         1365346936526                           
+Build-Jdk                                1.7.0_17                                
+Built-By                                 user1                                   
+Bundle-Description                       tester-one-api-provider                 
+Bundle-DocURL                            http://www.barchart.com/                
+Bundle-License                           http://www.opensource.org/licenses/bsd-license.php
+Bundle-ManifestVersion                   2                                       
+Bundle-Name                              tester-one-api-provider                 
+Bundle-SymbolicName                      com.barchart.version.tester.one-api-provider
+Bundle-Vendor                            Barchart, Inc.                          
+Bundle-Version                           5.0.3.SNAPSHOT                          
+Created-By                               Apache Maven Bundle Plugin              
+Export-Package                           tester.one.api.provider;uses:="tester.one.api";version="5.0.3.SNAPSHOT"
+Import-Package                           tester.one.api;version="[2.0,3)"        
+Manifest-Version                         1.0                                     
+Service-Component                        OSGI-INF/service-component/*.xml        
+Tool                                     Bnd-1.50.0                              
+
+[IMPEXP]
+Import-Package
+  tester.one.api                         {version=[2.0,3)}
+Export-Package
+  tester.one.api.provider                {version=5.0.3.SNAPSHOT}
+
+[USES]
+tester.one.api.provider                  java.lang
+                                         tester.one.api
+
+[USEDBY]
+java.lang                                tester.one.api.provider
+tester.one.api                           tester.one.api.provider
+
+[COMPONENTS]
+OSGI-INF/service-component/*.xml
+  - no resource
+
+
+[LIST]
+META-INF
+  MANIFEST.MF extra='\uFFFD\uFFFD\u0000\u0000'
+META-INF/maven
+META-INF/maven/com.barchart.version.tester
+META-INF/maven/com.barchart.version.tester/tester-one-api-provider
+  pom.properties
+  pom.xml
+OSGI-INF
+OSGI-INF/service-component
+  null.xml
+tester
+tester/one
+tester/one/api
+tester/one/api/provider
+  ServiceProvider.class
+
