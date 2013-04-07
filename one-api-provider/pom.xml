@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 
@@ -11,7 +12,7 @@
 
 	<groupId>com.barchart.version.tester</groupId>
 	<artifactId>tester-one-api-provider</artifactId>
-	<version>4.6.1-SNAPSHOT</version>
+	<version>4.7.0-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<scm>
@@ -43,7 +44,9 @@
 	</dependencies>
 
 	<build>
+
 		<plugins>
+
 			<!-- <plugin> -->
 			<!-- <groupId>org.apache.felix</groupId> -->
 			<!-- <artifactId>maven-bundle-plugin</artifactId> -->
@@ -51,7 +54,27 @@
 			<!-- <_versionpolicy>[${version;==;${@}},${version;=+;${@}})</_versionpolicy> -->
 			<!-- </configuration> -->
 			<!-- </plugin> -->
+
+			<plugin>
+				<groupId>org.apache.aries.versioning</groupId>
+				<artifactId>org.apache.aries.versioning.plugin</artifactId>
+				<version>0.1.0</version>
+				<configuration>
+					<oldArtifact>${project.groupId}:${project.artifactId}:4.6.0</oldArtifact>
+				</configuration>
+				<executions>
+					<execution>
+						<id>default-verify</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>version-check</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
 		</plugins>
+
 	</build>
 
 </project>

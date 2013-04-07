@@ -19,4 +19,8 @@ public class ServiceProvider implements Service {
 	public void process_3() {
 	}
 
+	@Override
+	public void process_4() {
+	}
+
 }
