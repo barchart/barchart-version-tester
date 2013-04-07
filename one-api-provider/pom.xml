@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 
@@ -12,7 +11,7 @@
 
 	<groupId>com.barchart.version.tester</groupId>
 	<artifactId>tester-one-api-provider</artifactId>
-	<version>5.0.3-SNAPSHOT</version>
+	<version>5.0.3</version>
 	<packaging>bundle</packaging>
 
 	<description>
@@ -31,7 +30,7 @@ Imports API bundle.
 		<url>https://github.com/barchart/barchart-version-tester</url>
 		<connection>scm:git:git://github.com/barchart/barchart-version-tester.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-version-tester.git</developerConnection>
-		<tag>master</tag>
+		<tag>tester-one-api-provider-5.0.3</tag>
 	</scm>
 
 	<dependencies>
