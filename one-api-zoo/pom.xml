@@ -22,6 +22,12 @@
 Application bundle. 
 * Uses consumer bundles.
 * Uses provider bundles.
+
+Bundle selection logic:
+* visit at all dependencies
+* discover all version ranges
+* use most narrow version ranges
+* select latest release from selected ranges
 ]]>
 	</description>
 
@@ -45,7 +51,7 @@ Application bundle.
 		<dependency>
 			<groupId>com.barchart.version.tester</groupId>
 			<artifactId>tester-one-api-provider</artifactId>
-			<version>[5.0,5.1)</version>
+			<version>[5,6)</version>
 		</dependency>
 
 	</dependencies>
