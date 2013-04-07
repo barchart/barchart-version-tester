@@ -1,6 +1,6 @@
 ### tester-one-api-zoo
 
-Application bundle. 
+Application feature. 
 * Uses consumer bundles.
 * Uses provider bundles.
 

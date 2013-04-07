@@ -19,7 +19,7 @@
 <![CDATA[
 ### ${project.artifactId}
 
-Application bundle. 
+Application feature. 
 * Uses consumer bundles.
 * Uses provider bundles.
 
