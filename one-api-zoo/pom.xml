@@ -28,14 +28,14 @@
 		<dependency>
 			<groupId>com.barchart.version.tester</groupId>
 			<artifactId>tester-one-api-consumer</artifactId>
-			<version>[3, 4)</version>
+			<version>[3,4)</version>
 		</dependency>
 
 		<!-- API Provider bundle dependency. -->
 		<dependency>
 			<groupId>com.barchart.version.tester</groupId>
 			<artifactId>tester-one-api-provider</artifactId>
-			<version>[4.6, 4.7)</version>
+			<version>[5.0,5.1)</version>
 		</dependency>
 
 	</dependencies>
