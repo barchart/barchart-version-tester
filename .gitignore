@@ -23,3 +23,7 @@ test-output/
 release.properties
 pom.xml.*
 
+#
+# maven debug log
+#
+mvn.log
