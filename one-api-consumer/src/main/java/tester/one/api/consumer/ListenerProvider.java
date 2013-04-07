@@ -1,6 +1,6 @@
-package tester.maven.api.consumer;
+package tester.one.api.consumer;
 
-import tester.maven.api.Listener;
+import tester.one.api.Listener;
 
 import com.barchart.util.anno.SemanticConsumerImpl;
 

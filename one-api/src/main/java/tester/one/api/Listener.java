@@ -1,4 +1,4 @@
-package tester.maven.api;
+package tester.one.api;
 
 import com.barchart.util.anno.SemanticConsumerApi;
 
