@@ -5,7 +5,7 @@ Application bundle.
 * Uses provider bundles.
 
 Bundle selection logic:
-* visit at all dependencies
+* visit all dependencies
 * discover all version ranges
-* use most narrow version ranges
-* select latest release from selected ranges
+* use most narrow version range
+* use latest release from the range
