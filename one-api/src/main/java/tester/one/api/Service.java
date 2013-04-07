@@ -2,10 +2,7 @@ package tester.one.api;
 
 import aQute.bnd.annotation.ProviderType;
 
-import com.barchart.util.anno.SemanticProviderApi;
-
 @ProviderType
-@SemanticProviderApi
 public interface Service {
 
 	void process_1();

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.0" name="tester-one-api-zoo">
+    <feature name="tester-one-api-zoo" version="1.0.1-SNAPSHOT" description="tester-one-api-zoo">
+        <details>tester-one-api-zoo</details>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api-consumer/3.0.0</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api/2.0.0</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api/2.0.1-SNAPSHOT</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api/2.0.1</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api/2.0.2-SNAPSHOT</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api-consumer/3.0.1-SNAPSHOT</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api-consumer/3.0.1</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api-consumer/3.0.2-SNAPSHOT</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api-provider/5.0.0</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api-provider/5.0.1-SNAPSHOT</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api-provider/5.0.1</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api-provider/5.0.2-SNAPSHOT</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api-provider/5.0.2</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api-provider/5.0.3-SNAPSHOT</bundle>
+    </feature>
+</features>
