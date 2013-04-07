@@ -1,11 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
 		<groupId>com.barchart.base</groupId>
 		<artifactId>barchart-archon</artifactId>
-		<version>2.5.6</version>
+		<version>2.5.7</version>
 		<relativePath />
 	</parent>
 
@@ -24,12 +25,12 @@
 	<dependencies>
 
 		<!-- API bundle dependency. -->
-		<!-- BND is using API Consumer import policy by default. -->
-		<!-- Use maven ranges to express API Provider import policy. -->
+		<!-- BND is using API Provider policy, see below. -->
+		<!-- Maven needs explicit range to reflect the same. -->
 		<dependency>
 			<groupId>com.barchart.version.tester</groupId>
 			<artifactId>tester-one-api</artifactId>
-			<version>[2.0,3.1)</version>
+			<version>[2.0,2.1)</version>
 		</dependency>
 
 		<!-- LIB bundle dependency. -->
@@ -42,47 +43,32 @@
 
 	</dependencies>
 
+	<properties>
+		<bundleBaselineVersion>5.0.0</bundleBaselineVersion>
+	</properties>
+
 	<build>
 
 		<plugins>
 
+			<!-- Semantic version check against baseline. -->
+			<plugin>
+				<groupId>org.apache.aries.versioning</groupId>
+				<artifactId>org.apache.aries.versioning.plugin</artifactId>
+			</plugin>
+
+			<!-- Declare API Provider package. -->
 			<plugin>
 				<groupId>org.apache.felix</groupId>
 				<artifactId>maven-bundle-plugin</artifactId>
 				<configuration>
-
 					<instructions>
-
-						<_consumer-policy>$&lt;range;[==,+)&gt;</_consumer-policy>
-						<_provider-policy>$&lt;range;[==,=+)&gt;</_provider-policy>
-
 						<Import-Package>
 							tester.one.api;provide:=true,
 							*
 						</Import-Package>
-
 					</instructions>
-
-
 				</configuration>
-			</plugin>
-
-			<plugin>
-				<groupId>org.apache.aries.versioning</groupId>
-				<artifactId>org.apache.aries.versioning.plugin</artifactId>
-				<version>0.1.0</version>
-				<configuration>
-					<oldArtifact>${project.groupId}:${project.artifactId}:4.6.0</oldArtifact>
-				</configuration>
-				<executions>
-					<execution>
-						<id>default-verify</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>version-check</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 
 		</plugins>
