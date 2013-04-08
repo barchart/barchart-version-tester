@@ -1,6 +1,6 @@
 <!--
 
-    Copyright (C) 2011-2013 Barchart, Inc. <http://www.barchart.com/>
+    Copyright (C) 2011-2012 Barchart, Inc. <http://www.barchart.com/>
 
     All rights reserved. Licensed under the OSI BSD License.
 
@@ -9,5 +9,4 @@
 -->
 ### maven build marker
 when this file is present in project root folder, 
-project artifacts will be published to the barchart private repository
-
+project artifacts will be published to the maven central
