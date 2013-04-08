@@ -5,6 +5,6 @@ import aQute.bnd.annotation.ConsumerType;
 @ConsumerType
 public interface Listener {
 
-	void listen();
+	void listen(String event);
 
 }
