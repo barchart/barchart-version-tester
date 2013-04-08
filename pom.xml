@@ -35,7 +35,7 @@ Layout Project.
 		<module>one-api</module>
 		<module>one-api-consumer</module>
 		<module>one-api-provider</module>
-		<module>one-api-zoo</module>
+		<module>one-zoo</module>
 
 	</modules>
 

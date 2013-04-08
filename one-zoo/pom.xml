@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>com.barchart.version.tester</groupId>
-	<artifactId>tester-one-api-zoo</artifactId>
+	<artifactId>tester-one-zoo</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
 	<packaging>feature</packaging>
 
