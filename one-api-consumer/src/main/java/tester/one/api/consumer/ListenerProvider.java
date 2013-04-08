@@ -5,7 +5,7 @@ import tester.one.api.Listener;
 public class ListenerProvider implements Listener {
 
 	@Override
-	public void listen() {
+	public void listen(final String event) {
 	}
 
 }
