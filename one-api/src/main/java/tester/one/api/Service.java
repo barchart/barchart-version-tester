@@ -15,4 +15,6 @@ public interface Service {
 
 	void process_5();
 
+	void process_6();
+
 }
