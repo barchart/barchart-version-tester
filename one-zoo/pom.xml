@@ -11,7 +11,7 @@
 
 	<groupId>com.barchart.version.tester</groupId>
 	<artifactId>tester-one-zoo</artifactId>
-	<version>1.0.7</version>
+	<version>1.0.8-SNAPSHOT</version>
 	<packaging>feature</packaging>
 
 	<description>
@@ -34,7 +34,7 @@ Bundle selection logic:
 		<url>https://github.com/barchart/barchart-version-tester</url>
 		<connection>scm:git:git://github.com/barchart/barchart-version-tester.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-version-tester.git</developerConnection>
-		<tag>tester-one-zoo-1.0.7</tag>
+		<tag>master</tag>
 	</scm>
 
 	<dependencies>
