@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features xmlns="http://karaf.apache.org/xmlns/features/v1.2.0" name="tester-one-zoo">
-    <feature name="tester-one-zoo" version="1.0.8" description="tester-one-zoo">
+    <feature name="tester-one-zoo" version="1.0.9" description="tester-one-zoo">
         <details>### tester-one-zoo
 
 Application feature. 
@@ -12,8 +12,8 @@ Bundle selection logic:
 * discover all version ranges
 * use most narrow version range
 * use latest release from the range</details>
-        <bundle>mvn:com.barchart.version.tester/tester-one-api/3.1.1</bundle>
-        <bundle>mvn:com.barchart.version.tester/tester-one-api-consumer/4.0.3</bundle>
-        <bundle>mvn:com.barchart.version.tester/tester-one-api-provider/5.3.1</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api/3.1.2</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api-consumer/4.0.4</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api-provider/5.3.2</bundle>
     </feature>
 </features>
