@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.0" name="tester-one-zoo">
+    <feature name="tester-one-zoo" version="1.0.8-SNAPSHOT" description="tester-one-zoo">
+        <details>### tester-one-zoo
+
+Application feature. 
+* Uses consumer bundles.
+* Uses provider bundles.
+
+Bundle selection logic:
+* visit all dependencies
+* discover all version ranges
+* use most narrow version range
+* use latest release from the range</details>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api/3.1.1</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api-consumer/4.0.3</bundle>
+        <bundle>mvn:com.barchart.version.tester/tester-one-api-provider/5.3.1</bundle>
+    </feature>
+</features>
