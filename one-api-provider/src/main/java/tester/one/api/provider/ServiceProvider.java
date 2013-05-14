@@ -32,4 +32,18 @@ public class ServiceProvider implements Service {
 	public void process_6() {
 	}
 
+	/**
+	 * Changes in public method of non-IMPL package need MINOR version change.
+	 */
+	public void publicMethod() {
+
+	}
+
+	/**
+	 * Changes in package-private method are compatible.
+	 */
+	/* default */void hiddenMethod() {
+
+	}
+
 }
