@@ -3,6 +3,9 @@ package tester.one.api.provider;
 import tester.one.api.Listener;
 import tester.one.api.Service;
 
+/**
+ * Most changes in this class are incompatible. See below.
+ */
 public class ServiceProvider implements Service {
 
 	protected void bind(final Listener listerner) {
