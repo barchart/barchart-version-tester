@@ -38,7 +38,7 @@ public class ServiceProvider implements Service {
 	/**
 	 * Changes in public method of non-IMPL package need MINOR version change.
 	 */
-	public void publicMethod() {
+	public void publicMethodXXX() {
 
 	}
 
