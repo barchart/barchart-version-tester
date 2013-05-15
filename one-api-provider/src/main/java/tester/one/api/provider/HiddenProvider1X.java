@@ -5,7 +5,7 @@ import tester.one.api.Service;
 /**
  * Changes in package-private class are compatible.
  */
-class HiddenProvider1 implements Service {
+/* package-private */class HiddenProvider1X implements Service {
 
 	@Override
 	public void process_1() {
@@ -40,6 +40,11 @@ class HiddenProvider1 implements Service {
 	@Override
 	public void process_6() {
 		// TODO Auto-generated method stub
+
+	}
+
+	/** Trying to change compatibility. */
+	public void test() {
 
 	}
 
