@@ -31,10 +31,6 @@ public class ServiceProvider implements Service {
 	public void process_5() {
 	}
 
-	@Override
-	public void process_6() {
-	}
-
 	/**
 	 * Changes in public method of non-IMPL package need MINOR version change.
 	 */

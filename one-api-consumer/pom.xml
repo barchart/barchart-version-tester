@@ -41,7 +41,7 @@ Imports API bundle.
 		<dependency>
 			<groupId>com.barchart.version.tester</groupId>
 			<artifactId>tester-one-api</artifactId>
-			<version>[3, 4)</version>
+			<version>[4, 5)</version>
 		</dependency>
 
 	</dependencies>

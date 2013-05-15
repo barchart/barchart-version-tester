@@ -50,12 +50,6 @@ public class HiddenProvider2 implements Service {
 	}
 
 	@Override
-	public void process_6() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
 	public void process_7() {
 		// TODO Auto-generated method stub
 

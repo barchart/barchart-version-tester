@@ -37,12 +37,6 @@ import tester.one.api.Service;
 
 	}
 
-	@Override
-	public void process_6() {
-		// TODO Auto-generated method stub
-
-	}
-
 	/** Trying to change compatibility. */
 	public void test() {
 
