@@ -50,7 +50,7 @@ Bundle selection logic:
 		<dependency>
 			<groupId>com.barchart.version.tester</groupId>
 			<artifactId>tester-one-api-provider</artifactId>
-			<version>[5,6)</version>
+			<version>[6,7)</version>
 		</dependency>
 
 	</dependencies>
