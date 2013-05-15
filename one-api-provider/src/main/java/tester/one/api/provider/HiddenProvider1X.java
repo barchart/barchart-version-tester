@@ -48,4 +48,10 @@ import tester.one.api.Service;
 
 	}
 
+	@Override
+	public void process_7() {
+		// TODO Auto-generated method stub
+
+	}
+
 }
