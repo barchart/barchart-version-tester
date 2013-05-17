@@ -63,7 +63,7 @@ Bundle selection logic:
 			<plugin>
 				<groupId>org.apache.karaf.tooling</groupId>
 				<artifactId>karaf-maven-plugin</artifactId>
-				<version>3.0.0-build003</version>
+				<version>3.0.0-build004</version>
 				<executions>
 					<execution>
 						<goals>
