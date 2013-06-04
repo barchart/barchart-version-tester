@@ -11,7 +11,7 @@
 
 	<groupId>com.barchart.version.tester</groupId>
 	<artifactId>tester-one-api-provider</artifactId>
-	<version>7.0.1</version>
+	<version>7.0.2-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<description>
@@ -30,7 +30,7 @@ Imports API bundle.
 		<url>https://github.com/barchart/barchart-version-tester</url>
 		<connection>scm:git:git://github.com/barchart/barchart-version-tester.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-version-tester.git</developerConnection>
-		<tag>tester-one-api-provider-7.0.1</tag>
+		<tag>master</tag>
 	</scm>
 
 	<dependencies>
