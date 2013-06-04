@@ -45,7 +45,7 @@ Imports API bundle.
 			<version>[4,5)</version>
 		</dependency>
 
-		<!-- Test non-bundle range resolution. -->
+		<!-- Test range resolution. -->
 		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
@@ -54,17 +54,42 @@ Imports API bundle.
 		<dependency>
 			<groupId>joda-time</groupId>
 			<artifactId>joda-time</artifactId>
-			<version>[2,3)</version>
+			<version>[2,3-SNAPSHOT)</version>
 		</dependency>
 		<dependency>
 			<groupId>com.barchart.version.tester</groupId>
 			<artifactId>tester-one-api-consumer</artifactId>
-			<version>[4,5-SNAPSHOT)</version>
+			<version>[4-SNAPSHOT,5-SNAPSHOT)</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-net</groupId>
 			<artifactId>commons-net</artifactId>
-			<version>[3,4-SNAPSHOT)</version>
+			<version>[3-SNAPSHOT,4-SNAPSHOT)</version>
+		</dependency>
+		<dependency>
+			<groupId>com.barchart.util</groupId>
+			<artifactId>barchart-util-value-api</artifactId>
+			<version>[4-SNAPSHOT,5-SNAPSHOT)</version>
+		</dependency>
+		<dependency>
+			<groupId>com.barchart.util</groupId>
+			<artifactId>barchart-util-value-impl</artifactId>
+			<version>[4-SNAPSHOT,5-SNAPSHOT)</version>
+		</dependency>
+		
+		<!-- Netty "CR" does not match maven expected snapshot pattern. -->
+		<!-- Waiting for first "normal" netty release. -->
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-buffer</artifactId>
+			<!-- <version>[4-SNAPSHOT,5-SNAPSHOT)</version> -->
+			<version>4.0.0.CR3</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.barchart.conf</groupId>
+			<artifactId>barchart-conf-util</artifactId>
+			<version>[1-SNAPSHOT,2-SNAPSHOT)</version>
 		</dependency>
 
 	</dependencies>
