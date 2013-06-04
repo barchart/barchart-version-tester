@@ -48,7 +48,7 @@ Imports API bundle.
 		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
-			<version>[1.6,2-SNAPSHOT)</version>
+			<version>[1.6-SNAPSHOT,2-SNAPSHOT)</version>
 		</dependency>
 
 	</dependencies>
