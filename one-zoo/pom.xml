@@ -55,14 +55,14 @@ Bundle selection logic:
 		</dependency>
 
 		<!-- Should be excluded based on type. -->
-		<dependency>
-			<groupId>com.barchart.log</groupId>
-			<artifactId>barchart-log4j-aws-sns-pax-feature</artifactId>
-			<version>1.1.5</version>
-			<classifier>features</classifier>
-			<type>xml</type>
-			<scope>compile</scope>
-		</dependency>
+		<!-- <dependency> -->
+		<!-- <groupId>com.barchart.log</groupId> -->
+		<!-- <artifactId>barchart-log4j-aws-sns-pax-feature</artifactId> -->
+		<!-- <version>1.1.5</version> -->
+		<!-- <classifier>features</classifier> -->
+		<!-- <type>xml</type> -->
+		<!-- <scope>compile</scope> -->
+		<!-- </dependency> -->
 
 	</dependencies>
 
@@ -82,15 +82,15 @@ Bundle selection logic:
 						</goals>
 						<configuration>
 							<resolverSettings>
-							
+
 								<!-- Do not permit snapshot in range by default. -->
-								<enableRangeSnapshot>false</enableRangeSnapshot>
-								
+								<!-- <enableRangeSnapshot>false</enableRangeSnapshot> -->
+
 								<!-- Permit only matching snapshot in range by default. -->
 								<!-- Maven coordinates template: -->
 								<!-- <groupId>:<artifactId>:<extension>[:<classifier>]:<version> -->
-								<enableRangeSnapshotRegex>.*:tester-one-api:.*</enableRangeSnapshotRegex>
-								
+								<!-- <enableRangeSnapshotRegex>.*:tester-one-api:.*</enableRangeSnapshotRegex> -->
+
 							</resolverSettings>
 						</configuration>
 					</execution>
